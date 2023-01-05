@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap");
+
+body {
+  margin: 100px 50px;
+  background-color: #1f2937;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  font-weight: bolder;
+  color: #4adf86;
+  font-size: 50px;
+  margin: 0;
+}
+
+h1::first-line {
+  color: white;
+}
+
+h2 {
+  color: grey;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+#line {
+  width: 527px;
+  border: solid 2px #2f3e53;
+  margin: 35px 0;
+}
+
+#password-boxes {
+  display: flex;
+}
+
+.password-box {
+  background-color: #273549;
+  width: 200px;
+  height: 20px;
+  margin-right: 50px;
+  color: #55f991;
+  padding: 20px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
